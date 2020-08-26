@@ -13,7 +13,9 @@ output:
     preserve_yaml: TRUE
 ---
 
-![mpj](https://jspective.github.io/thebackpost/assets/images/mpj.jpg =250x250)
+
+<div class="image fit"><img src="https://jspective.github.io/thebackpost/assets/images/mpj.jpg" alt="" /></div>
+
 
 Every basketball loving fan at some point in their life will have the
 discussion of which player is better. As a child, my friends and I would
