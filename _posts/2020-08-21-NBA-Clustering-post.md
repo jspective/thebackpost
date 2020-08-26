@@ -13,7 +13,7 @@ output:
     preserve_yaml: TRUE
 ---
 
-![test](https://jspective.github.io/thebackpost/assets/images/mpj.jpg =1000x500)
+![](https://jspective.github.io/thebackpost/assets/images/mpj.jpg =500)
 
 Every basketball loving fan at some point in their life will have the
 discussion of which player is better. As a child, my friends and I would
