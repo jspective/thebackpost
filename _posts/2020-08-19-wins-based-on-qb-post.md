@@ -13,6 +13,8 @@ output:
     preserve_yaml: TRUE
 ---
 
+<div class="image fit"><img src="https://jspective.github.io/thebackpost/assets/images/jimmyG.jpg" alt="" /></div>
+
 The quarterback is the most important position in football. No one
 individual player has a more consistent impact on the game than them.
 This short read looks to show an application of logistic regression by

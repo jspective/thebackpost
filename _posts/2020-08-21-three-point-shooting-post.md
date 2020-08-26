@@ -13,6 +13,8 @@ output:
     preserve_yaml: TRUE
 ---
 
+<div class="image fit"><img src="https://jspective.github.io/thebackpost/assets/images/klay.jpg" alt="" /></div>
+
 Growing up coaches always told me “take the easy lay-up, take the high
 percentage shot, do not shoot the three.” Now shooting from the three
 point line and further back is at the forefront of the game. If your
