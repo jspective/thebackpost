@@ -14,9 +14,6 @@ output:
 ---
 
 
-<div class="image fit"><img src="https://jspective.github.io/thebackpost/assets/images/mpj.jpg" alt="" /></div>
-
-
 Every basketball loving fan at some point in their life will have the
 discussion of which player is better. As a child, my friends and I would
 often argue over Jason Kidd or Steve Nash, D-Wade or Lebron, or Kobe or
