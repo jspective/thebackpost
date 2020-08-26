@@ -6,7 +6,7 @@ author: "Jason Spector"
 htmlwidgets: true
 always_allow_html: true
 excerpt: "Are players outplaying their role?"
-image: "/images/mpj.jpg"
+image: "assets/images/mpj.jpg"
 output:
   md_document:
     variant: gfm
