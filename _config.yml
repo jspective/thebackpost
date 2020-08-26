@@ -3,7 +3,7 @@ title:              The Back Post
 bio:                "Sports Analytics Site"
 description:        "Articles on Sports Analytics by Jason Spector"
 locale:             en_US
-baseurl: "" # the subpath of your site, e.g. /blog /thebackpost
+baseurl: "/thebackpost" # the subpath of your site, e.g. /blog /thebackpost
 url: "" # the base hostname & protocol for your site https://jspective.github.io/
 
 # Comments
