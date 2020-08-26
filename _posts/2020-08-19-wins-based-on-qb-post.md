@@ -6,7 +6,7 @@ author: "Jason Spector"
 htmlwidgets: true
 always_allow_html: true
 excerpt: "How much does the QB matter?"
-image: "assets/images/jimmyG.jpg"
+image: "jimmyG.jpg"
 output:
   md_document:
     variant: gfm

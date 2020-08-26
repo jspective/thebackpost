@@ -6,7 +6,7 @@ author: "Jason Spector"
 htmlwidgets: true
 always_allow_html: true
 excerpt: "Are the players in today's game better 3-point shooters?"
-image: "/assets/images/klay.jpg"
+image: "klay.jpg"
 output:
   md_document:
     variant: gfm
