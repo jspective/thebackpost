@@ -1,0 +1,108 @@
+---
+layout: null
+title: "The Back Post"
+description: Every great website starts with a great homepage. The homepage tells your viewers what your site is all about and gives your viewers a place to come back to.
+sitemap:
+    priority: 1.0
+    lastmod: 2017-11-02
+    changefreq: weekly
+---
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+  Jekyll integration by somiibo.com
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+    {% include head.html %}
+
+
+	</head>
+	<body class="is-loading">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
+
+				<!-- Intro -->
+					<div id="intro">
+            <h1>{{site.title}}</h1>
+						<h2>The Numbers Tell The Story</h2>
+						<p>Sports Analytics Site by Jason Spector</p>
+						<ul class="actions">
+							<li><a href="#header" class="button icon solo fa-arrow-down scrolly">Continue</a></li>
+						</ul>
+					</div>
+
+				<!-- Header -->
+					<header id="header">
+						<a href="{{ "/" | absolute_url }}" class="logo">{{site.title}}</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+
+            {% include nav.html %}
+
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+						<!-- Featured Post -->
+							<article class="post featured">
+								<header class="major">
+									<h2><a href="#">About The Back Post </a></h2>
+									<p>The Back Post is a sports analytics site created by Jason Spector that analyzes players and game strategies.</p>
+								</header>
+								<!-- to add an image to the main page use below
+								<a href="#" class="image main"><img src="{{ "/images/basketball_analytics_picture.png" | absolute_url }}" alt="" /></a> -->
+               					<p>Regardless of your statistical knowledge The Back Post is meant for all readers. I was a lecturer for sports analytics at University of California, Berkeley and University of Arizona and a large portion of my posts are lectures turned into short reads. Because my posts were lectures they look to inform the reader. I hope you enjoy! </p>
+							</article>
+
+						<!-- Posts -->
+							<section class="posts">
+                {% for post in site.posts limit:3 %}
+                {% assign mod3 = forloop.index | modulo: 3 %}
+  								<article>
+  									<header>
+  										<h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></h2>
+  									</header>
+  									<a href="{{ post.url | absolute_url }}" class="image fit"><img src="{{ post.image | absolute_url }}" alt="" /></a>
+  									<p>{{ post.excerpt }}</p>
+  									<ul class="actions">
+  										<li><a href="{{ post.url | absolute_url }}" class="button">Full Story</a></li>
+  									</ul>
+  								</article>
+                  {% if mod3 == 0 %}
+                  <article>
+  									<header>
+  										<h2><a href="#"></a></h2>
+  									</header>
+
+  								</article>
+                  {% endif %}
+                {% endfor %}
+
+							</section>
+
+						<!-- Footer -->
+							<footer>
+                <ul class="actions">
+                  <li><a href="{{ "/blog/" | absolute_url }}" class="button">All Posts</a></li>
+                </ul>
+							</footer>
+
+					</div>
+
+				<!-- Footer -->
+        {% include foot.html %}
+
+			</div>
+
+		<!-- Scripts -->
+		{% include scripts-main.html %}
+    {% include tracking.html %}
+
+	</body>
+</html>
