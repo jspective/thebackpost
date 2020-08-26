@@ -6,12 +6,14 @@ author: "Jason Spector"
 htmlwidgets: true
 always_allow_html: true
 excerpt: "Are players outplaying their role?"
-image: "/assets/images/mpj.jpg"
+image: "assets/images/mpj.jpg"
 output:
   md_document:
     variant: gfm
     preserve_yaml: TRUE
 ---
+
+![test](../assets/images/mpj.jpg)
 
 Every basketball loving fan at some point in their life will have the
 discussion of which player is better. As a child, my friends and I would
