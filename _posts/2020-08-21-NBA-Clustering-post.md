@@ -13,7 +13,7 @@ output:
     preserve_yaml: TRUE
 ---
 
-![test](../assets/images/mpj.jpg)
+![test]({{ site.baseurl }}/assets/images/mpj.jpg)
 
 Every basketball loving fan at some point in their life will have the
 discussion of which player is better. As a child, my friends and I would
