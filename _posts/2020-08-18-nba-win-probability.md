@@ -6,7 +6,7 @@ author: "Jason Spector"
 htmlwidgets: true
 always_allow_html: true
 excerpt: "Can we accurately predict wins before an NBA Schedule Release"
-image: "assets/images/ad.jpg"
+image: "assets/images/klay.jpg"
 output:
   md_document:
     variant: gfm
