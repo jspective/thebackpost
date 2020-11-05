@@ -1,18 +1,16 @@
 ---
-title: "Predicting Wins in the NBA"
-author: "Jason Spector"
 layout: post
+categories: jekyll
+title: 'Predicting Wins in the NBA'
+author: "Jason Spector"
+htmlwidgets: true
+always_allow_html: true
+excerpt: "Can we accurately predict wins before an NBA Schedule Release"
+image: "/images/ad.jpg"
 output:
   md_document:
     variant: gfm
-    preserve_yaml: yes
-  html_document:
-    df_print: paged
-htmlwidgets: yes
-always_allow_html: yes
-excerpt: Can we accurately predict wins before an NBA Schedule Release
-image: /images/ad.jpg
-categories: jekyll
+    preserve_yaml: TRUE
 ---
 
 \*\* updates will be made again after the 2021 draft and free agency
@@ -149,28 +147,35 @@ them:
 Lastly, below is the table output for my final win projections and
 probabilities.
 
-# 
-
-<!--html_preserve-->
-
-<div class="standings">
-
-<div class="title">
-
-<h2>
-
-Playoff Predictions
-
-</h2>
-
-</div>
-
-<div id="htmlwidget-e15e55acec7e9b241e03" class="reactable html-widget" style="width:auto;height:auto;">
-
-</div>
-
-<script type="application/json" data-for="htmlwidget-e15e55acec7e9b241e03">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"team_name":["Dallas Mavericks","Denver Nuggets","Golden State Warriors","Houston Rockets","Los Angeles Clippers","Los Angeles Lakers","Memphis Grizzlies","Minnesota Timberwolves","New Orleans Pelicans","Oklahoma City Thunder","Phoenix Suns","Portland Trail Blazers","Sacramento Kings","San Antonio Spurs","Utah Jazz","Atlanta Hawks","Boston Celtics","Brooklyn Nets","Chicago Bulls","Charlotte Hornets","Cleveland Cavaliers","Detroit Pistons","Indiana Pacers","Miami Heat","Milwaukee Bucks","New York Knicks","Orlando Magic","Philadelphia 76ers","Toronto Raptors","Washington Wizards"],"conference":["West","West","West","West","West","West","West","West","West","West","West","West","West","West","West","East","East","East","East","East","East","East","East","East","East","East","East","East","East","East"],"predicted_wins":[45,54,30,49,49,53,42,35,35,42,32,37,40,37,51,36,44,45,40,25,30,32,53,43,55,34,43,48,47,34],"playoff_probability":[0.85,1,0.01,0.97,0.96,1,0.58,0.11,0.08,0.63,0.03,0.17,0.44,0.18,0.99,0.2,0.8,0.88,0.47,0,0.02,0.04,1,0.76,1,0.1,0.77,0.96,0.93,0.09],"playoff_playin_probability":[0.85,1,0.01,0.97,0.96,1,0.58,0.11,0.08,0.63,0.03,0.18,0.44,0.18,0.98,0.2,0.79,0.87,0.48,0,0.02,0.04,1,0.76,1,0.1,0.77,0.95,0.93,0.09]},"columns":[{"accessor":"team_name","name":"Team","type":"factor","className":"cell","headerClassName":"header","defaultSortDesc":false,"maxWidth":200,"headerStyle":{"fontWeight":700}},{"accessor":"conference","name":"Conference","type":"factor","className":"cell group","headerClassName":"header","defaultSortDesc":false,"maxWidth":200,"align":"center","headerStyle":{"fontWeight":700}},{"accessor":"predicted_wins","name":"Predicted Wins","type":"numeric","className":"cell number border-left","headerClassName":"header","maxWidth":150,"align":"center"},{"accessor":"playoff_probability","name":"Playoff Probability","type":"numeric","className":"cell number border-left","headerClassName":"header","cell":[" 85%",">99%","  1%"," 97%"," 96%",">99%"," 58%"," 11%","  8%"," 63%","  3%"," 17%"," 44%"," 18%"," 99%"," 20%"," 80%"," 88%"," 47%"," <1%","  2%","  4%",">99%"," 76%",">99%"," 10%"," 77%"," 96%"," 93%","  9%"],"maxWidth":200,"style":[{"color":"#111","background":"#55BBAB"},{"color":"#111","background":"#35B0AB"},{"color":"#111","background":"#FCFEF7"},{"color":"#111","background":"#3BB2AB"},{"color":"#111","background":"#3DB3AB"},{"color":"#111","background":"#35B0AB"},{"color":"#111","background":"#8FD1AB"},{"color":"#111","background":"#E7F7CA"},{"color":"#111","background":"#EEF9CF"},{"color":"#111","background":"#84CDAB"},{"color":"#111","background":"#F8FDE9"},{"color":"#111","background":"#DAF2C0"},{"color":"#111","background":"#A8DCAE"},{"color":"#111","background":"#D8F1BF"},{"color":"#111","background":"#37B0AB"},{"color":"#111","background":"#D3F0BC"},{"color":"#111","background":"#5FC0AB"},{"color":"#111","background":"#4EB9AB"},{"color":"#111","background":"#A2DAAD"},{"color":"#aaa"},{"color":"#111","background":"#FAFDF0"},{"color":"#111","background":"#F6FCE2"},{"color":"#111","background":"#35B0AB"},{"color":"#111","background":"#68C3AB"},{"color":"#111","background":"#35B0AB"},{"color":"#111","background":"#E9F8CB"},{"color":"#111","background":"#66C2AB"},{"color":"#111","background":"#3DB3AB"},{"color":"#111","background":"#44B5AB"},{"color":"#111","background":"#EBF8CD"}]},{"accessor":"playoff_playin_probability","name":"Playoff Play-in Probability","type":"numeric","className":"cell number border-left","headerClassName":"header","cell":[" 85%",">99%","  1%"," 97%"," 96%",">99%"," 58%"," 11%","  8%"," 63%","  3%"," 18%"," 44%"," 18%"," 98%"," 20%"," 79%"," 87%"," 48%"," <1%","  2%","  4%",">99%"," 76%",">99%"," 10%"," 77%"," 95%"," 93%","  9%"],"maxWidth":200,"style":[{"color":"#111","background":"#55BBAB"},{"color":"#111","background":"#35B0AB"},{"color":"#111","background":"#FCFEF7"},{"color":"#111","background":"#3BB2AB"},{"color":"#111","background":"#3DB3AB"},{"color":"#111","background":"#35B0AB"},{"color":"#111","background":"#8FD1AB"},{"color":"#111","background":"#E7F7CA"},{"color":"#111","background":"#EEF9CF"},{"color":"#111","background":"#84CDAB"},{"color":"#111","background":"#F8FDE9"},{"color":"#111","background":"#D8F1BF"},{"color":"#111","background":"#A8DCAE"},{"color":"#111","background":"#D8F1BF"},{"color":"#111","background":"#39B1AB"},{"color":"#111","background":"#D3F0BC"},{"color":"#111","background":"#62C0AB"},{"color":"#111","background":"#50BAAB"},{"color":"#111","background":"#A1D9AD"},{"color":"#aaa"},{"color":"#111","background":"#FAFDF0"},{"color":"#111","background":"#F6FCE2"},{"color":"#111","background":"#35B0AB"},{"color":"#111","background":"#68C3AB"},{"color":"#111","background":"#35B0AB"},{"color":"#111","background":"#E9F8CB"},{"color":"#111","background":"#66C2AB"},{"color":"#111","background":"#3FB4AB"},{"color":"#111","background":"#44B5AB"},{"color":"#111","background":"#EBF8CD"}]}],"defaultSortDesc":true,"defaultSorted":[{"id":"conference","desc":false},{"id":"predicted_wins","desc":true}],"defaultPageSize":30,"paginationType":"numbers","showPageInfo":true,"minRows":1,"highlight":true,"bordered":true,"striped":true,"compact":true,"showSortIcon":false,"className":"standings-table","dataKey":"39b2b17eb45c711b7c18567184947717","key":"39b2b17eb45c711b7c18567184947717"},"children":[]},"class":"reactR_markup"},"evals":[],"jsHooks":[]}</script>
-
-</div>
-
-<!--/html_preserve-->
+|    | team\_name             | conference | predicted\_wins | playoff\_probability | playoff\_playin\_probability |
+| :- | :--------------------- | :--------- | --------------: | -------------------: | ---------------------------: |
+| 25 | Milwaukee Bucks        | East       |              55 |                 1.00 |                         1.00 |
+| 23 | Indiana Pacers         | East       |              53 |                 1.00 |                         1.00 |
+| 28 | Philadelphia 76ers     | East       |              48 |                 0.96 |                         0.95 |
+| 29 | Toronto Raptors        | East       |              47 |                 0.93 |                         0.93 |
+| 18 | Brooklyn Nets          | East       |              45 |                 0.88 |                         0.87 |
+| 17 | Boston Celtics         | East       |              44 |                 0.80 |                         0.79 |
+| 24 | Miami Heat             | East       |              43 |                 0.76 |                         0.76 |
+| 27 | Orlando Magic          | East       |              43 |                 0.77 |                         0.77 |
+| 19 | Chicago Bulls          | East       |              40 |                 0.47 |                         0.48 |
+| 16 | Atlanta Hawks          | East       |              36 |                 0.20 |                         0.20 |
+| 26 | New York Knicks        | East       |              34 |                 0.10 |                         0.10 |
+| 30 | Washington Wizards     | East       |              34 |                 0.09 |                         0.09 |
+| 22 | Detroit Pistons        | East       |              32 |                 0.04 |                         0.04 |
+| 21 | Cleveland Cavaliers    | East       |              30 |                 0.02 |                         0.02 |
+| 20 | Charlotte Hornets      | East       |              25 |                 0.00 |                         0.00 |
+| 2  | Denver Nuggets         | West       |              54 |                 1.00 |                         1.00 |
+| 6  | Los Angeles Lakers     | West       |              53 |                 1.00 |                         1.00 |
+| 15 | Utah Jazz              | West       |              51 |                 0.99 |                         0.98 |
+| 4  | Houston Rockets        | West       |              49 |                 0.97 |                         0.97 |
+| 5  | Los Angeles Clippers   | West       |              49 |                 0.96 |                         0.96 |
+| 1  | Dallas Mavericks       | West       |              45 |                 0.85 |                         0.85 |
+| 7  | Memphis Grizzlies      | West       |              42 |                 0.58 |                         0.58 |
+| 10 | Oklahoma City Thunder  | West       |              42 |                 0.63 |                         0.63 |
+| 13 | Sacramento Kings       | West       |              40 |                 0.44 |                         0.44 |
+| 12 | Portland Trail Blazers | West       |              37 |                 0.17 |                         0.18 |
+| 14 | San Antonio Spurs      | West       |              37 |                 0.18 |                         0.18 |
+| 8  | Minnesota Timberwolves | West       |              35 |                 0.11 |                         0.11 |
+| 9  | New Orleans Pelicans   | West       |              35 |                 0.08 |                         0.08 |
+| 11 | Phoenix Suns           | West       |              32 |                 0.03 |                         0.03 |
+| 3  | Golden State Warriors  | West       |              30 |                 0.01 |                         0.01 |
