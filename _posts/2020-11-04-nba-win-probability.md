@@ -6,7 +6,7 @@ author: "Jason Spector"
 htmlwidgets: true
 always_allow_html: true
 excerpt: "Can we accurately predict wins before an NBA Schedule Release"
-image: "assets//images/ad.jpg"
+image: "assets/images/ad.jpg"
 output:
   md_document:
     variant: gfm
@@ -138,11 +138,12 @@ them:
     have even gone to a second game. This allowed for the following
     equations for the probabilities with a play-in:
 
-\[ P(Playoff | No \thinspace Play-in) =  \frac{number \thinspace of \thinspace times \thinspace being \thinspace top \thinspace 8 \thinspace seed}{number \thinspace of \thinspace simulated \thinspace seasons} \]
+$ P(Playoff | No Play-in) =  $
 
-\[ P(Playoff | Play-in) = P(top \thinspace 7 \thinspace seed) + P(8 \thinspace seed)*(Win \thinspace Playin \thinspace as \thinspace 8 \thinspace seed) + P(9 \thinspace seed)*(Win \thinspace Playin \thinspace as \thinspace 9 \thinspace seed)\]
+$ P(Playoff | Play-in) = P(top 7 seed) + P(8 seed)*(Win Playin as 8
+seed) + P(9 seed)*(Win Playin as 9 seed) $
 
-\[ P(Playoff | Play-in) = P(top \thinspace 7 \thinspace seed) + P(8 \thinspace seed)*(\frac{52}{60}) + P(9 \thinspace seed)*(\frac{8}{60}) \]
+$ P(Playoff | Play-in) = P(top 7 seed) + P(8 seed)*() + P(9 seed)*() $
 
 Lastly, below is the table output for my final win projections and
 probabilities.
