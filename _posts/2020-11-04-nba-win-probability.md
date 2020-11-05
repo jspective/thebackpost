@@ -139,13 +139,9 @@ them:
     equations for the probabilities with a play-in:
 
 P(Playoff | No Play-in) = number of times being top 8 seed/number of
-simulated seasons
-
-P(Playoff | Play-in) = P(top 7 seed) + P(8 seed)P(Win Playin as 8 seed)
-+ P(9 seed)P(Win Playin as 9 seed)
-
-P(Playoff | Play-in) = P(top 7 seed) + P(8 seed)(52/60) + P(9
-seed)(8/60)
+simulated seasons P(Playoff | Play-in) = P(top 7 seed) + P(8 seed)P(Win
+Playin as 8 seed) + P(9 seed)P(Win Playin as 9 seed) P(Playoff |
+Play-in) = P(top 7 seed) + P(8 seed)(52/60) + P(9 seed)(8/60)
 
 Lastly, below is the table output for my final win projections and
 probabilities.
