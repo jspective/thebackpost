@@ -43,7 +43,7 @@
 					<!-- Post -->
 					<section class="posts">
 						{% for post in site.posts %}
-						{% assign mod3 = forloop.index | modulo: 3 %}
+						{% assign mod3 = forloop.index | modulo: 2 %}
 							<article>
 								<header>
 									<h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></h2>
