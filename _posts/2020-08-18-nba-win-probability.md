@@ -13,6 +13,8 @@ output:
     preserve_yaml: TRUE
 ---
 
+<img src="/assets/images/ad.jpg" alt="">
+
 \*\* updates will be made again after the 2021 draft and free agency
 
 There are currently many season and game prediction models for NBA games
