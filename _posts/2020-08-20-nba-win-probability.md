@@ -138,43 +138,44 @@ them:
     have even gone to a second game. This allowed for the following
     equations for the probabilities with a play-in:
 
-P(Playoff | No Play-in) = number of times being top 8 seed/number of
-simulated seasons P(Playoff | Play-in) = P(top 7 seed) + P(8 seed)P(Win
-Playin as 8 seed) + P(9 seed)P(Win Playin as 9 seed) P(Playoff |
-Play-in) = P(top 7 seed) + P(8 seed)(52/60) + P(9 seed)(8/60)
+P(Playoff | No Play-in) = number of times being top 8 seed/number of simulated seasons 
+
+P(Playoff | Play-in) = P(top 7 seed) + P(8 seed)P(Win Playin as 8 seed) + P(9 seed)P(Win Playin as 9 seed) 
+
+P(Playoff | Play-in) = P(top 7 seed) + P(8 seed)(52/60) + P(9 seed)(8/60)
 
 Lastly, below is the table output for my final win projections and
 probabilities.
 
 |    | team\_name             | conference | predicted\_wins | playoff\_probability | playoff\_playin\_probability |
-| :- | :--------------------- | :--------- | --------------: | -------------------: | ---------------------------: |
-| 25 | Milwaukee Bucks        | East       |              55 |                 1.00 |                         1.00 |
-| 23 | Indiana Pacers         | East       |              53 |                 1.00 |                         1.00 |
-| 28 | Philadelphia 76ers     | East       |              48 |                 0.96 |                         0.95 |
-| 29 | Toronto Raptors        | East       |              47 |                 0.93 |                         0.93 |
-| 18 | Brooklyn Nets          | East       |              45 |                 0.88 |                         0.87 |
-| 17 | Boston Celtics         | East       |              44 |                 0.80 |                         0.79 |
-| 24 | Miami Heat             | East       |              43 |                 0.76 |                         0.76 |
-| 27 | Orlando Magic          | East       |              43 |                 0.77 |                         0.77 |
-| 19 | Chicago Bulls          | East       |              40 |                 0.47 |                         0.48 |
-| 16 | Atlanta Hawks          | East       |              36 |                 0.20 |                         0.20 |
-| 26 | New York Knicks        | East       |              34 |                 0.10 |                         0.10 |
-| 30 | Washington Wizards     | East       |              34 |                 0.09 |                         0.09 |
-| 22 | Detroit Pistons        | East       |              32 |                 0.04 |                         0.04 |
-| 21 | Cleveland Cavaliers    | East       |              30 |                 0.02 |                         0.02 |
-| 20 | Charlotte Hornets      | East       |              25 |                 0.00 |                         0.00 |
-| 2  | Denver Nuggets         | West       |              54 |                 1.00 |                         1.00 |
-| 6  | Los Angeles Lakers     | West       |              53 |                 1.00 |                         1.00 |
-| 15 | Utah Jazz              | West       |              51 |                 0.99 |                         0.98 |
-| 4  | Houston Rockets        | West       |              49 |                 0.97 |                         0.97 |
-| 5  | Los Angeles Clippers   | West       |              49 |                 0.96 |                         0.96 |
-| 1  | Dallas Mavericks       | West       |              45 |                 0.85 |                         0.85 |
-| 7  | Memphis Grizzlies      | West       |              42 |                 0.58 |                         0.58 |
-| 10 | Oklahoma City Thunder  | West       |              42 |                 0.63 |                         0.63 |
-| 13 | Sacramento Kings       | West       |              40 |                 0.44 |                         0.44 |
-| 12 | Portland Trail Blazers | West       |              37 |                 0.17 |                         0.18 |
-| 14 | San Antonio Spurs      | West       |              37 |                 0.18 |                         0.18 |
-| 8  | Minnesota Timberwolves | West       |              35 |                 0.11 |                         0.11 |
-| 9  | New Orleans Pelicans   | West       |              35 |                 0.08 |                         0.08 |
-| 11 | Phoenix Suns           | West       |              32 |                 0.03 |                         0.03 |
-| 3  | Golden State Warriors  | West       |              30 |                 0.01 |                         0.01 |
+| :--------------------- | :--------- | --------------: | -------------------: | ---------------------------: |
+| Milwaukee Bucks        | East       |              55 |                 0.99 |                         0.99 |
+| Indiana Pacers         | East       |              53 |                 0.99 |                         0.99 |
+| Philadelphia 76ers     | East       |              48 |                 0.96 |                         0.95 |
+| Toronto Raptors        | East       |              47 |                 0.93 |                         0.93 |
+| Brooklyn Nets          | East       |              45 |                 0.88 |                         0.87 |
+| Boston Celtics         | East       |              44 |                 0.80 |                         0.79 |
+| Miami Heat             | East       |              43 |                 0.76 |                         0.76 |
+| Orlando Magic          | East       |              43 |                 0.77 |                         0.77 |
+| Chicago Bulls          | East       |              40 |                 0.47 |                         0.48 |
+| Atlanta Hawks          | East       |              36 |                 0.20 |                         0.20 |
+| New York Knicks        | East       |              34 |                 0.10 |                         0.10 |
+| Washington Wizards     | East       |              34 |                 0.09 |                         0.09 |
+| Detroit Pistons        | East       |              32 |                 0.04 |                         0.04 |
+| Cleveland Cavaliers    | East       |              30 |                 0.02 |                         0.02 |
+| Charlotte Hornets      | East       |              25 |                 0.00 |                         0.00 |
+| Denver Nuggets         | West       |              54 |                 0.99 |                         0.99 |
+| Los Angeles Lakers     | West       |              53 |                 0.99 |                         0.99 |
+| Utah Jazz              | West       |              51 |                 0.99 |                         0.98 |
+| Houston Rockets        | West       |              49 |                 0.97 |                         0.97 |
+| Los Angeles Clippers   | West       |              49 |                 0.96 |                         0.96 |
+| Dallas Mavericks       | West       |              45 |                 0.85 |                         0.85 |
+| Memphis Grizzlies      | West       |              42 |                 0.58 |                         0.58 |
+| Oklahoma City Thunder  | West       |              42 |                 0.63 |                         0.63 |
+| Sacramento Kings       | West       |              40 |                 0.44 |                         0.44 |
+| Portland Trail Blazers | West       |              37 |                 0.17 |                         0.18 |
+| San Antonio Spurs      | West       |              37 |                 0.18 |                         0.18 |
+| Minnesota Timberwolves | West       |              35 |                 0.11 |                         0.11 |
+| New Orleans Pelicans   | West       |              35 |                 0.08 |                         0.08 |
+| Phoenix Suns           | West       |              32 |                 0.03 |                         0.03 |
+| Golden State Warriors  | West       |              30 |                 0.01 |                         0.01 |
