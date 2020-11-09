@@ -122,38 +122,38 @@ logistic model.
 | Recall    |   0.64 |
 | F1        |   0.69 |
 
-|     | WinProb | QB              |  Rate | ActualWL | PredWL |
-| :-- | ------: | :-------------- | ----: | :------- | :----- |
-| 794 |  0.9194 | Patrick Mahomes | 143.2 | W        | W      |
-| 795 |  0.8756 | Patrick Mahomes | 131.2 | W        | W      |
-| 796 |  0.8791 | Patrick Mahomes | 132.0 | W        | W      |
-| 797 |  0.4833 | Patrick Mahomes |  81.0 | W        | L      |
-| 798 |  0.5918 | Patrick Mahomes |  91.9 | L        | L      |
-| 799 |  0.6356 | Patrick Mahomes |  96.5 | L        | W      |
-| 800 |  0.8500 | Patrick Mahomes | 125.8 | W        | W      |
-| 801 |  0.8129 | Patrick Mahomes | 119.2 | L        | W      |
-| 802 |  0.4012 | Patrick Mahomes |  72.7 | W        | L      |
-| 803 |  0.4913 | Patrick Mahomes |  81.8 | W        | L      |
-| 804 |  0.5094 | Patrick Mahomes |  83.6 | W        | L      |
-| 805 |  0.7906 | Patrick Mahomes | 115.7 | W        | W      |
-| 806 |  0.7656 | Patrick Mahomes | 112.1 | W        | W      |
-| 807 |  0.4843 | Patrick Mahomes |  81.1 | W        | L      |
-| 834 |  0.4753 | Jimmy Garoppolo |  80.2 | W        | L      |
-| 835 |  0.8747 | Jimmy Garoppolo | 131.0 | W        | W      |
-| 836 |  0.4974 | Jimmy Garoppolo |  82.4 | W        | L      |
-| 837 |  0.7386 | Jimmy Garoppolo | 108.5 | W        | W      |
-| 838 |  0.4803 | Jimmy Garoppolo |  80.7 | W        | L      |
-| 839 |  0.2851 | Jimmy Garoppolo |  59.8 | W        | L      |
-| 840 |  0.7590 | Jimmy Garoppolo | 111.2 | W        | W      |
-| 841 |  0.8985 | Jimmy Garoppolo | 136.9 | W        | W      |
-| 842 |  0.3403 | Jimmy Garoppolo |  66.2 | L        | L      |
-| 843 |  0.7886 | Jimmy Garoppolo | 115.4 | W        | W      |
-| 844 |  0.9268 | Jimmy Garoppolo | 145.8 | W        | W      |
-| 845 |  0.7516 | Jimmy Garoppolo | 110.2 | L        | W      |
-| 846 |  0.8778 | Jimmy Garoppolo | 131.7 | W        | W      |
-| 847 |  0.5762 | Jimmy Garoppolo |  90.3 | L        | L      |
-| 848 |  0.3868 | Jimmy Garoppolo |  71.2 | W        | L      |
-| 849 |  0.8098 | Jimmy Garoppolo | 118.7 | W        | W      |
+| WinProb | QB              |  Rate | ActualWL | PredWL |
+| ------: | :-------------- | ----: | :------- | :----- |
+|  0.9194 | Patrick Mahomes | 143.2 | W        | W      |
+|  0.8756 | Patrick Mahomes | 131.2 | W        | W      |
+|  0.8791 | Patrick Mahomes | 132.0 | W        | W      |
+|  0.4833 | Patrick Mahomes |  81.0 | W        | L      |
+|  0.5918 | Patrick Mahomes |  91.9 | L        | L      |
+|  0.6356 | Patrick Mahomes |  96.5 | L        | W      |
+|  0.8500 | Patrick Mahomes | 125.8 | W        | W      |
+|  0.8129 | Patrick Mahomes | 119.2 | L        | W      |
+|  0.4012 | Patrick Mahomes |  72.7 | W        | L      |
+|  0.4913 | Patrick Mahomes |  81.8 | W        | L      |
+|  0.5094 | Patrick Mahomes |  83.6 | W        | L      |
+|  0.7906 | Patrick Mahomes | 115.7 | W        | W      |
+|  0.7656 | Patrick Mahomes | 112.1 | W        | W      |
+|  0.4843 | Patrick Mahomes |  81.1 | W        | L      |
+|  0.4753 | Jimmy Garoppolo |  80.2 | W        | L      |
+|  0.8747 | Jimmy Garoppolo | 131.0 | W        | W      |
+|  0.4974 | Jimmy Garoppolo |  82.4 | W        | L      |
+|  0.7386 | Jimmy Garoppolo | 108.5 | W        | W      |
+|  0.4803 | Jimmy Garoppolo |  80.7 | W        | L      |
+|  0.2851 | Jimmy Garoppolo |  59.8 | W        | L      |
+|  0.7590 | Jimmy Garoppolo | 111.2 | W        | W      |
+|  0.8985 | Jimmy Garoppolo | 136.9 | W        | W      |
+|  0.3403 | Jimmy Garoppolo |  66.2 | L        | L      |
+|  0.7886 | Jimmy Garoppolo | 115.4 | W        | W      |
+|  0.9268 | Jimmy Garoppolo | 145.8 | W        | W      |
+|  0.7516 | Jimmy Garoppolo | 110.2 | L        | W      |
+|  0.8778 | Jimmy Garoppolo | 131.7 | W        | W      |
+|  0.5762 | Jimmy Garoppolo |  90.3 | L        | L      |
+|  0.3868 | Jimmy Garoppolo |  71.2 | W        | L      |
+|  0.8098 | Jimmy Garoppolo | 118.7 | W        | W      |
 
 Hope you enjoyed this slight intro into the application of Logistic
 Regression\! If you want to learn more or see the code email me\!
