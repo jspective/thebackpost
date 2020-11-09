@@ -5,7 +5,7 @@ title: 'Predicting Wins in the NBA'
 author: "Jason Spector"
 htmlwidgets: true
 always_allow_html: true
-excerpt: "Can we accurately predict wins before an NBA Schedule Release"
+excerpt: "Can we accurately predict wins before an NBA schedule release?"
 image: "assets/images/G-ant.jpg"
 output:
   md_document:
