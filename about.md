@@ -13,6 +13,8 @@ sitemap:
 
 Hello my name is Jason Spector! Currently, I am a Data Scientist for the Golden State Warriors. I grew up playing and watching sports and my favorite subject was statistics. I figured why not do something that involves both. While getting my Bachelor's degree at University of California, Berkeley I created and taught an Introduction to Sports Statistics Class. I then created and lectured for the University of Arizona's Sports Analytics class, which integrated the university's athletic department into the curriculum by providing real sports analytics questions solved by my students. I have turned a few of my lectures into blog posts hoping that other people might enjoy the topics as much as I did. 
 
+It should be noted that none of my work is attached to the Golden State Warriors Basketball Operations office.
+
 ### Side Hobbies
 <div class="box">
   <p>
